@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A6E90FD1EF416620046CF9C /* DemoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6E90FB1EF416620046CF9C /* DemoCell.swift */; };
+		4A6E90FE1EF416620046CF9C /* DemoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A6E90FC1EF416620046CF9C /* DemoCell.xib */; };
 		AF500A951EC1EEDE00AFFAEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF500A941EC1EEDE00AFFAEA /* AppDelegate.swift */; };
 		AF500A971EC1EEDE00AFFAEA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF500A961EC1EEDE00AFFAEA /* ViewController.swift */; };
 		AF500A9A1EC1EEDE00AFFAEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF500A981EC1EEDE00AFFAEA /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		AF500A9F1EC1EEDE00AFFAEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF500A9D1EC1EEDE00AFFAEA /* LaunchScreen.storyboard */; };
 		AF500AAA1EC1EEDE00AFFAEA /* G_P_ETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF500AA91EC1EEDE00AFFAEA /* G_P_ETests.swift */; };
 		AF500AB51EC1EEDE00AFFAEA /* G_P_EUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF500AB41EC1EEDE00AFFAEA /* G_P_EUITests.swift */; };
+		AF500AC31EC1EEF800AFFAEA /* G+P+E.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF500AC21EC1EEF800AFFAEA /* G+P+E.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4A6E90FB1EF416620046CF9C /* DemoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoCell.swift; sourceTree = "<group>"; };
+		4A6E90FC1EF416620046CF9C /* DemoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoCell.xib; sourceTree = "<group>"; };
 		AF500A911EC1EEDE00AFFAEA /* G+P+E.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "G+P+E.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF500A941EC1EEDE00AFFAEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF500A961EC1EEDE00AFFAEA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +52,7 @@
 		AF500AB01EC1EEDE00AFFAEA /* G+P+EUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "G+P+EUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF500AB41EC1EEDE00AFFAEA /* G_P_EUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = G_P_EUITests.swift; sourceTree = "<group>"; };
 		AF500AB61EC1EEDE00AFFAEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF500AC21EC1EEF800AFFAEA /* G+P+E.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "G+P+E.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				AF500A9B1EC1EEDE00AFFAEA /* Assets.xcassets */,
 				AF500A9D1EC1EEDE00AFFAEA /* LaunchScreen.storyboard */,
 				AF500AA01EC1EEDE00AFFAEA /* Info.plist */,
+				AF500AC21EC1EEF800AFFAEA /* G+P+E.swift */,
+				4A6E90FB1EF416620046CF9C /* DemoCell.swift */,
+				4A6E90FC1EF416620046CF9C /* DemoCell.xib */,
 			);
 			path = "G+P+E";
 			sourceTree = "<group>";
@@ -234,6 +243,7 @@
 			files = (
 				AF500A9F1EC1EEDE00AFFAEA /* LaunchScreen.storyboard in Resources */,
 				AF500A9C1EC1EEDE00AFFAEA /* Assets.xcassets in Resources */,
+				4A6E90FE1EF416620046CF9C /* DemoCell.xib in Resources */,
 				AF500A9A1EC1EEDE00AFFAEA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,7 +269,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF500AC31EC1EEF800AFFAEA /* G+P+E.swift in Sources */,
 				AF500A971EC1EEDE00AFFAEA /* ViewController.swift in Sources */,
+				4A6E90FD1EF416620046CF9C /* DemoCell.swift in Sources */,
 				AF500A951EC1EEDE00AFFAEA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,6 +519,7 @@
 				AF500ABB1EC1EEDE00AFFAEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AF500ABC1EC1EEDE00AFFAEA /* Build configuration list for PBXNativeTarget "G+P+ETests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +528,7 @@
 				AF500ABE1EC1EEDE00AFFAEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AF500ABF1EC1EEDE00AFFAEA /* Build configuration list for PBXNativeTarget "G+P+EUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +537,7 @@
 				AF500AC11EC1EEDE00AFFAEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
